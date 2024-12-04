@@ -1,0 +1,9 @@
+<h1>Registrar no Clube Guardiões Dourados</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Registrar</button>
+</form>
+<p>
+    <a href="/path/to/regimento_interno.pdf" download>Baixar Regimento Interno</a>
+</p>
